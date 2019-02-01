@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Node-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,14 +14,728 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:Battery_Cell BT?
-U 1 1 5C537342
-P 1750 1550
-F 0 "BT?" H 1868 1646 50  0000 L CNN
-F 1 "Battery_Cell" H 1868 1555 50  0000 L CNN
-F 2 "" V 1750 1610 50  0001 C CNN
-F 3 "~" V 1750 1610 50  0001 C CNN
-	1    1750 1550
+L Device:Battery_Cell BT1
+U 1 1 5C543670
+P 2300 2300
+F 0 "BT1" H 2418 2396 50  0000 L CNN
+F 1 "Battery_Cell" H 2418 2305 50  0000 L CNN
+F 2 "ENNOID:Battery" V 2300 2360 50  0001 C CNN
+F 3 "~" V 2300 2360 50  0001 C CNN
+	1    2300 2300
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Battery_Cell BT4
+U 1 1 5C543D3D
+P 3000 2300
+F 0 "BT4" H 3118 2396 50  0000 L CNN
+F 1 "Battery_Cell" H 3118 2305 50  0000 L CNN
+F 2 "ENNOID:Battery" V 3000 2360 50  0001 C CNN
+F 3 "~" V 3000 2360 50  0001 C CNN
+	1    3000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT7
+U 1 1 5C5440B5
+P 3750 2300
+F 0 "BT7" H 3868 2396 50  0000 L CNN
+F 1 "Battery_Cell" H 3868 2305 50  0000 L CNN
+F 2 "ENNOID:Battery" V 3750 2360 50  0001 C CNN
+F 3 "~" V 3750 2360 50  0001 C CNN
+	1    3750 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT10
+U 1 1 5C544530
+P 4550 2300
+F 0 "BT10" H 4668 2396 50  0000 L CNN
+F 1 "Battery_Cell" H 4668 2305 50  0000 L CNN
+F 2 "ENNOID:Battery" V 4550 2360 50  0001 C CNN
+F 3 "~" V 4550 2360 50  0001 C CNN
+	1    4550 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT13
+U 1 1 5C544A1C
+P 5300 2300
+F 0 "BT13" H 5418 2396 50  0000 L CNN
+F 1 "Battery_Cell" H 5418 2305 50  0000 L CNN
+F 2 "ENNOID:Battery" V 5300 2360 50  0001 C CNN
+F 3 "~" V 5300 2360 50  0001 C CNN
+	1    5300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT16
+U 1 1 5C544D04
+P 6000 2300
+F 0 "BT16" H 6118 2396 50  0000 L CNN
+F 1 "Battery_Cell" H 6118 2305 50  0000 L CNN
+F 2 "ENNOID:Battery" V 6000 2360 50  0001 C CNN
+F 3 "~" V 6000 2360 50  0001 C CNN
+	1    6000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT19
+U 1 1 5C5450DF
+P 6700 2300
+F 0 "BT19" H 6818 2396 50  0000 L CNN
+F 1 "Battery_Cell" H 6818 2305 50  0000 L CNN
+F 2 "ENNOID:Battery" V 6700 2360 50  0001 C CNN
+F 3 "~" V 6700 2360 50  0001 C CNN
+	1    6700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT22
+U 1 1 5C54560A
+P 7400 2300
+F 0 "BT22" H 7518 2396 50  0000 L CNN
+F 1 "Battery_Cell" H 7518 2305 50  0000 L CNN
+F 2 "ENNOID:Battery" V 7400 2360 50  0001 C CNN
+F 3 "~" V 7400 2360 50  0001 C CNN
+	1    7400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT25
+U 1 1 5C545B5E
+P 8100 2300
+F 0 "BT25" H 8218 2396 50  0000 L CNN
+F 1 "Battery_Cell" H 8218 2305 50  0000 L CNN
+F 2 "ENNOID:Battery" V 8100 2360 50  0001 C CNN
+F 3 "~" V 8100 2360 50  0001 C CNN
+	1    8100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT28
+U 1 1 5C5460F0
+P 8800 2300
+F 0 "BT28" H 8918 2396 50  0000 L CNN
+F 1 "Battery_Cell" H 8918 2305 50  0000 L CNN
+F 2 "ENNOID:Battery" V 8800 2360 50  0001 C CNN
+F 3 "~" V 8800 2360 50  0001 C CNN
+	1    8800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT2
+U 1 1 5C54694A
+P 2300 2900
+F 0 "BT2" H 2418 2996 50  0000 L CNN
+F 1 "Battery_Cell" H 2418 2905 50  0000 L CNN
+F 2 "ENNOID:Battery" V 2300 2960 50  0001 C CNN
+F 3 "~" V 2300 2960 50  0001 C CNN
+	1    2300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT5
+U 1 1 5C546954
+P 3000 2900
+F 0 "BT5" H 3118 2996 50  0000 L CNN
+F 1 "Battery_Cell" H 3118 2905 50  0000 L CNN
+F 2 "ENNOID:Battery" V 3000 2960 50  0001 C CNN
+F 3 "~" V 3000 2960 50  0001 C CNN
+	1    3000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT8
+U 1 1 5C54695E
+P 3750 2900
+F 0 "BT8" H 3868 2996 50  0000 L CNN
+F 1 "Battery_Cell" H 3868 2905 50  0000 L CNN
+F 2 "ENNOID:Battery" V 3750 2960 50  0001 C CNN
+F 3 "~" V 3750 2960 50  0001 C CNN
+	1    3750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT11
+U 1 1 5C546968
+P 4550 2900
+F 0 "BT11" H 4668 2996 50  0000 L CNN
+F 1 "Battery_Cell" H 4668 2905 50  0000 L CNN
+F 2 "ENNOID:Battery" V 4550 2960 50  0001 C CNN
+F 3 "~" V 4550 2960 50  0001 C CNN
+	1    4550 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT14
+U 1 1 5C546972
+P 5300 2900
+F 0 "BT14" H 5418 2996 50  0000 L CNN
+F 1 "Battery_Cell" H 5418 2905 50  0000 L CNN
+F 2 "ENNOID:Battery" V 5300 2960 50  0001 C CNN
+F 3 "~" V 5300 2960 50  0001 C CNN
+	1    5300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT17
+U 1 1 5C54697C
+P 6000 2900
+F 0 "BT17" H 6118 2996 50  0000 L CNN
+F 1 "Battery_Cell" H 6118 2905 50  0000 L CNN
+F 2 "ENNOID:Battery" V 6000 2960 50  0001 C CNN
+F 3 "~" V 6000 2960 50  0001 C CNN
+	1    6000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT20
+U 1 1 5C546986
+P 6700 2900
+F 0 "BT20" H 6818 2996 50  0000 L CNN
+F 1 "Battery_Cell" H 6818 2905 50  0000 L CNN
+F 2 "ENNOID:Battery" V 6700 2960 50  0001 C CNN
+F 3 "~" V 6700 2960 50  0001 C CNN
+	1    6700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT23
+U 1 1 5C546990
+P 7400 2900
+F 0 "BT23" H 7518 2996 50  0000 L CNN
+F 1 "Battery_Cell" H 7518 2905 50  0000 L CNN
+F 2 "ENNOID:Battery" V 7400 2960 50  0001 C CNN
+F 3 "~" V 7400 2960 50  0001 C CNN
+	1    7400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT26
+U 1 1 5C54699A
+P 8100 2900
+F 0 "BT26" H 8218 2996 50  0000 L CNN
+F 1 "Battery_Cell" H 8218 2905 50  0000 L CNN
+F 2 "ENNOID:Battery" V 8100 2960 50  0001 C CNN
+F 3 "~" V 8100 2960 50  0001 C CNN
+	1    8100 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT29
+U 1 1 5C5469A4
+P 8800 2900
+F 0 "BT29" H 8918 2996 50  0000 L CNN
+F 1 "Battery_Cell" H 8918 2905 50  0000 L CNN
+F 2 "ENNOID:Battery" V 8800 2960 50  0001 C CNN
+F 3 "~" V 8800 2960 50  0001 C CNN
+	1    8800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT3
+U 1 1 5C54A8AA
+P 2300 3400
+F 0 "BT3" H 2418 3496 50  0000 L CNN
+F 1 "Battery_Cell" H 2418 3405 50  0000 L CNN
+F 2 "ENNOID:Battery" V 2300 3460 50  0001 C CNN
+F 3 "~" V 2300 3460 50  0001 C CNN
+	1    2300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT6
+U 1 1 5C54A8B4
+P 3000 3400
+F 0 "BT6" H 3118 3496 50  0000 L CNN
+F 1 "Battery_Cell" H 3118 3405 50  0000 L CNN
+F 2 "ENNOID:Battery" V 3000 3460 50  0001 C CNN
+F 3 "~" V 3000 3460 50  0001 C CNN
+	1    3000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT9
+U 1 1 5C54A8BE
+P 3750 3400
+F 0 "BT9" H 3868 3496 50  0000 L CNN
+F 1 "Battery_Cell" H 3868 3405 50  0000 L CNN
+F 2 "ENNOID:Battery" V 3750 3460 50  0001 C CNN
+F 3 "~" V 3750 3460 50  0001 C CNN
+	1    3750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT12
+U 1 1 5C54A8C8
+P 4550 3400
+F 0 "BT12" H 4668 3496 50  0000 L CNN
+F 1 "Battery_Cell" H 4668 3405 50  0000 L CNN
+F 2 "ENNOID:Battery" V 4550 3460 50  0001 C CNN
+F 3 "~" V 4550 3460 50  0001 C CNN
+	1    4550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT15
+U 1 1 5C54A8D2
+P 5300 3400
+F 0 "BT15" H 5418 3496 50  0000 L CNN
+F 1 "Battery_Cell" H 5418 3405 50  0000 L CNN
+F 2 "ENNOID:Battery" V 5300 3460 50  0001 C CNN
+F 3 "~" V 5300 3460 50  0001 C CNN
+	1    5300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT18
+U 1 1 5C54A8DC
+P 6000 3400
+F 0 "BT18" H 6118 3496 50  0000 L CNN
+F 1 "Battery_Cell" H 6118 3405 50  0000 L CNN
+F 2 "ENNOID:Battery" V 6000 3460 50  0001 C CNN
+F 3 "~" V 6000 3460 50  0001 C CNN
+	1    6000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT21
+U 1 1 5C54A8E6
+P 6700 3400
+F 0 "BT21" H 6818 3496 50  0000 L CNN
+F 1 "Battery_Cell" H 6818 3405 50  0000 L CNN
+F 2 "ENNOID:Battery" V 6700 3460 50  0001 C CNN
+F 3 "~" V 6700 3460 50  0001 C CNN
+	1    6700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT24
+U 1 1 5C54A8F0
+P 7400 3400
+F 0 "BT24" H 7518 3496 50  0000 L CNN
+F 1 "Battery_Cell" H 7518 3405 50  0000 L CNN
+F 2 "ENNOID:Battery" V 7400 3460 50  0001 C CNN
+F 3 "~" V 7400 3460 50  0001 C CNN
+	1    7400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT27
+U 1 1 5C54A8FA
+P 8100 3400
+F 0 "BT27" H 8218 3496 50  0000 L CNN
+F 1 "Battery_Cell" H 8218 3405 50  0000 L CNN
+F 2 "ENNOID:Battery" V 8100 3460 50  0001 C CNN
+F 3 "~" V 8100 3460 50  0001 C CNN
+	1    8100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT30
+U 1 1 5C54A904
+P 8800 3400
+F 0 "BT30" H 8918 3496 50  0000 L CNN
+F 1 "Battery_Cell" H 8918 3405 50  0000 L CNN
+F 2 "ENNOID:Battery" V 8800 3460 50  0001 C CNN
+F 3 "~" V 8800 3460 50  0001 C CNN
+	1    8800 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2700 2300 2550
+Wire Wire Line
+	2300 2550 3000 2550
+Wire Wire Line
+	8800 2550 8800 2400
+Wire Wire Line
+	8800 2700 8800 2550
+Connection ~ 8800 2550
+Wire Wire Line
+	8100 2400 8100 2550
+Connection ~ 8100 2550
+Wire Wire Line
+	8100 2550 8800 2550
+Wire Wire Line
+	8100 2550 8100 2700
+Wire Wire Line
+	7400 2700 7400 2550
+Connection ~ 7400 2550
+Wire Wire Line
+	7400 2550 8100 2550
+Wire Wire Line
+	7400 2550 7400 2400
+Wire Wire Line
+	6700 2400 6700 2550
+Connection ~ 6700 2550
+Wire Wire Line
+	6700 2550 7400 2550
+Wire Wire Line
+	6700 2550 6700 2700
+Wire Wire Line
+	6000 2700 6000 2550
+Connection ~ 6000 2550
+Wire Wire Line
+	6000 2550 6700 2550
+Wire Wire Line
+	6000 2550 6000 2400
+Wire Wire Line
+	5300 2700 5300 2550
+Connection ~ 5300 2550
+Wire Wire Line
+	5300 2550 6000 2550
+Wire Wire Line
+	5300 2550 5300 2400
+Wire Wire Line
+	4550 2400 4550 2550
+Connection ~ 4550 2550
+Wire Wire Line
+	4550 2550 5300 2550
+Wire Wire Line
+	4550 2550 4550 2700
+Wire Wire Line
+	3750 2700 3750 2550
+Connection ~ 3750 2550
+Wire Wire Line
+	3750 2550 4550 2550
+Wire Wire Line
+	3750 2550 3750 2400
+Wire Wire Line
+	3000 2400 3000 2550
+Connection ~ 3000 2550
+Wire Wire Line
+	3000 2550 3750 2550
+Wire Wire Line
+	3000 2550 3000 2700
+Wire Wire Line
+	2300 2550 2300 2400
+Connection ~ 2300 2550
+Wire Wire Line
+	2300 3200 2300 3100
+Wire Wire Line
+	3000 3200 3000 3100
+Wire Wire Line
+	3750 3200 3750 3100
+Wire Wire Line
+	4550 3200 4550 3100
+Wire Wire Line
+	5300 3200 5300 3100
+Wire Wire Line
+	6000 3200 6000 3100
+Wire Wire Line
+	6700 3200 6700 3100
+Wire Wire Line
+	7400 3200 7400 3100
+Wire Wire Line
+	8100 3200 8100 3100
+Wire Wire Line
+	8800 3200 8800 3100
+Wire Wire Line
+	2300 3100 3000 3100
+Connection ~ 2300 3100
+Wire Wire Line
+	2300 3100 2300 3000
+Connection ~ 3000 3100
+Wire Wire Line
+	3000 3100 3000 3000
+Wire Wire Line
+	3000 3100 3750 3100
+Connection ~ 3750 3100
+Wire Wire Line
+	3750 3100 3750 3000
+Wire Wire Line
+	3750 3100 4550 3100
+Connection ~ 4550 3100
+Wire Wire Line
+	4550 3100 4550 3000
+Wire Wire Line
+	4550 3100 5300 3100
+Connection ~ 5300 3100
+Wire Wire Line
+	5300 3100 5300 3000
+Wire Wire Line
+	5300 3100 6000 3100
+Connection ~ 6000 3100
+Wire Wire Line
+	6000 3100 6000 3000
+Wire Wire Line
+	6000 3100 6700 3100
+Connection ~ 6700 3100
+Wire Wire Line
+	6700 3100 6700 3000
+Wire Wire Line
+	6700 3100 7400 3100
+Connection ~ 7400 3100
+Wire Wire Line
+	7400 3100 7400 3000
+Wire Wire Line
+	7400 3100 8100 3100
+Connection ~ 8100 3100
+Wire Wire Line
+	8100 3100 8100 3000
+Wire Wire Line
+	8100 3100 8800 3100
+Connection ~ 8800 3100
+Wire Wire Line
+	8800 3100 8800 3000
+$Comp
+L Connector_Generic:Conn_01x10 J1
+U 1 1 5C5641CC
+P 5600 1000
+F 0 "J1" V 5817 946 50  0000 C CNN
+F 1 "Conn_01x10" V 5726 946 50  0000 C CNN
+F 2 "" H 5600 1000 50  0001 C CNN
+F 3 "~" H 5600 1000 50  0001 C CNN
+	1    5600 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J2
+U 1 1 5C565BFB
+P 5700 4250
+F 0 "J2" V 5825 4196 50  0000 C CNN
+F 1 "Conn_01x10" V 5916 4196 50  0000 C CNN
+F 2 "" H 5700 4250 50  0001 C CNN
+F 3 "~" H 5700 4250 50  0001 C CNN
+	1    5700 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2300 2100 2300 1750
+Wire Wire Line
+	2300 1750 3000 1750
+Wire Wire Line
+	5200 1750 5200 1200
+Wire Wire Line
+	3000 2100 3000 1750
+Wire Wire Line
+	3000 1750 3750 1750
+Wire Wire Line
+	5300 1750 5300 1200
+Wire Wire Line
+	3750 2100 3750 1750
+Wire Wire Line
+	3750 1750 4550 1750
+Wire Wire Line
+	5400 1750 5400 1200
+Wire Wire Line
+	4550 2100 4550 1750
+Wire Wire Line
+	4550 1750 5200 1750
+Wire Wire Line
+	5500 1750 5500 1200
+Wire Wire Line
+	5300 2100 5300 1750
+Wire Wire Line
+	5300 1750 5400 1750
+Wire Wire Line
+	5600 1750 5600 1200
+Wire Wire Line
+	5700 1200 5700 1750
+Wire Wire Line
+	5700 1750 5800 1750
+Wire Wire Line
+	5800 1200 5800 1750
+Wire Wire Line
+	5800 1750 5900 1750
+Wire Wire Line
+	6700 1750 6700 2100
+Wire Wire Line
+	5900 1200 5900 1750
+Wire Wire Line
+	5900 1750 6000 1750
+Wire Wire Line
+	7400 1750 7400 2100
+Wire Wire Line
+	6000 1200 6000 1750
+Wire Wire Line
+	6000 1750 6100 1750
+Wire Wire Line
+	8100 1750 8100 2100
+Wire Wire Line
+	6100 1200 6100 1750
+Wire Wire Line
+	6100 1750 6700 1750
+Wire Wire Line
+	8800 1750 8800 2100
+Wire Wire Line
+	5200 4050 5200 3850
+Wire Wire Line
+	5200 3850 4550 3850
+Wire Wire Line
+	2300 3850 2300 3500
+Wire Wire Line
+	5300 3850 5400 3850
+Wire Wire Line
+	5600 3850 5600 4050
+Wire Wire Line
+	6000 3500 6000 3850
+Wire Wire Line
+	6000 3850 5900 3850
+Wire Wire Line
+	5700 3850 5700 4050
+Wire Wire Line
+	3000 3500 3000 3850
+Wire Wire Line
+	5300 3850 5300 4050
+Wire Wire Line
+	3750 3850 3750 3500
+Wire Wire Line
+	5400 3850 5400 4050
+Wire Wire Line
+	5500 4050 5500 3850
+Wire Wire Line
+	5500 3850 5400 3850
+Wire Wire Line
+	4550 3850 4550 3500
+Wire Wire Line
+	5800 4050 5800 3850
+Wire Wire Line
+	6700 3850 6700 3500
+Wire Wire Line
+	5900 4050 5900 3850
+Wire Wire Line
+	7400 3850 7400 3500
+Wire Wire Line
+	6000 4050 6000 3850
+Wire Wire Line
+	6000 3850 6100 3850
+Wire Wire Line
+	8100 3850 8100 3500
+Wire Wire Line
+	6100 4050 6100 3850
+Wire Wire Line
+	6100 3850 6700 3850
+Wire Wire Line
+	8800 3850 8800 3500
+$Comp
+L Device:Battery_Cell BT31
+U 1 1 5C5C120A
+P 1550 2300
+F 0 "BT31" H 1668 2396 50  0000 L CNN
+F 1 "Battery_Cell" H 1668 2305 50  0000 L CNN
+F 2 "ENNOID:Battery" V 1550 2360 50  0001 C CNN
+F 3 "~" V 1550 2360 50  0001 C CNN
+	1    1550 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT32
+U 1 1 5C5C1977
+P 1550 2900
+F 0 "BT32" H 1668 2996 50  0000 L CNN
+F 1 "Battery_Cell" H 1668 2905 50  0000 L CNN
+F 2 "ENNOID:Battery" V 1550 2960 50  0001 C CNN
+F 3 "~" V 1550 2960 50  0001 C CNN
+	1    1550 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT33
+U 1 1 5C5C1CF4
+P 1550 3400
+F 0 "BT33" H 1668 3496 50  0000 L CNN
+F 1 "Battery_Cell" H 1668 3405 50  0000 L CNN
+F 2 "ENNOID:Battery" V 1550 3460 50  0001 C CNN
+F 3 "~" V 1550 3460 50  0001 C CNN
+	1    1550 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 2100 1550 1750
+Wire Wire Line
+	1550 1750 2300 1750
+Connection ~ 2300 1750
+Wire Wire Line
+	1550 2700 1550 2550
+Wire Wire Line
+	1550 2550 2300 2550
+Wire Wire Line
+	1550 2550 1550 2400
+Connection ~ 1550 2550
+Wire Wire Line
+	1550 3000 1550 3100
+Wire Wire Line
+	1550 3100 2300 3100
+Connection ~ 1550 3100
+Wire Wire Line
+	1550 3100 1550 3200
+Connection ~ 3000 1750
+Connection ~ 5200 1750
+Wire Wire Line
+	5200 1750 5300 1750
+Connection ~ 3750 1750
+Connection ~ 5300 1750
+Connection ~ 4550 1750
+Connection ~ 5400 1750
+Wire Wire Line
+	5400 1750 5500 1750
+Connection ~ 5500 1750
+Wire Wire Line
+	5500 1750 5600 1750
+Connection ~ 6000 1750
+Wire Wire Line
+	6000 1750 6000 2100
+Connection ~ 5800 1750
+Connection ~ 6100 1750
+Connection ~ 6700 1750
+Wire Wire Line
+	6700 1750 7400 1750
+Connection ~ 5900 1750
+Connection ~ 7400 1750
+Wire Wire Line
+	7400 1750 8100 1750
+Connection ~ 8100 1750
+Wire Wire Line
+	8100 1750 8800 1750
+Connection ~ 3000 3850
+Wire Wire Line
+	3000 3850 2300 3850
+Connection ~ 5200 3850
+Wire Wire Line
+	5200 3850 5300 3850
+Connection ~ 3750 3850
+Wire Wire Line
+	3750 3850 3000 3850
+Connection ~ 5300 3850
+Connection ~ 4550 3850
+Wire Wire Line
+	4550 3850 3750 3850
+Connection ~ 5400 3850
+Connection ~ 5500 3850
+Wire Wire Line
+	5500 3850 5600 3850
+Connection ~ 6000 3850
+Connection ~ 5800 3850
+Wire Wire Line
+	5800 3850 5700 3850
+Connection ~ 6100 3850
+Connection ~ 6700 3850
+Wire Wire Line
+	6700 3850 7400 3850
+Connection ~ 5900 3850
+Wire Wire Line
+	5900 3850 5800 3850
+Connection ~ 7400 3850
+Wire Wire Line
+	7400 3850 8100 3850
+Connection ~ 8100 3850
+Wire Wire Line
+	8100 3850 8800 3850
+Wire Wire Line
+	1550 3500 1550 3850
+Wire Wire Line
+	1550 3850 2300 3850
+Connection ~ 2300 3850
+Wire Wire Line
+	5300 3500 5300 3850
+Wire Wire Line
+	5600 1750 5700 1750
+Connection ~ 5600 1750
+Connection ~ 5700 1750
+Wire Wire Line
+	5600 3850 5700 3850
+Connection ~ 5600 3850
+Connection ~ 5700 3850
 $EndSCHEMATC
