@@ -1,4 +1,4 @@
-159549141619176
+164206896794176
 Battery_Holders
 Bulgin_BX0036_1xC
 
@@ -22582,6 +22582,20 @@ EPM2405SJ
 10
 10
 ENNOID
+Half_Battery
+
+
+0
+3
+3
+ENNOID
+Half_Battery_2
+
+
+0
+2
+2
+ENNOID
 HM2102NL
 
 
@@ -22602,6 +22616,13 @@ connector multicomp MC9A MC9A12
 0
 16
 16
+ENNOID
+Pack
+
+
+0
+1
+1
 ENNOID
 Quick_fit_terminal
 
