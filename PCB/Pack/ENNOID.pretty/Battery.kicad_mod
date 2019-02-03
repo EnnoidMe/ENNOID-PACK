@@ -1,11 +1,11 @@
-(module Battery (layer F.Cu) (tedit 5C56E8C8)
+(module Battery (layer F.Cu) (tedit 5C5707D8)
   (fp_text reference REF** (at 0.508 -13.9018) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value Battery (at 0.508 -14.9018) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad 1 thru_hole custom (at 0 0) (size 5.5 5.5) (drill 5) (layers *.Mask B.Cu)
+  (pad 1 thru_hole custom (at 0 0) (size 6.5 6.5) (drill 6) (layers *.Mask B.Cu)
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives

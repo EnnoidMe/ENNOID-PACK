@@ -24,5 +24,14 @@ For small production & prototyping, PCB cost 4.90$ for 10pcs when smaller than 1
 - SMD fuse for each cell
 - Integrated temperature probes & cell monitoring connectors for BMS
 - Each cell is surrounded by three aluminium pins that act as pack structural reinforcement, negative electrode & heat dissipation.
+- Positive electrode can be spotwelded directly to the PCB
+- Can be both liquid cooled or air cooled
  
 
+## Concept images:
+
+![alt text](PIC/Node.png)
+
+![alt text](PIC/No_PCB.png)
+
+![alt text](PIC/With_PCB.png)
