@@ -15,7 +15,7 @@ This repository is part of the open-source project: EVGE - Electric Vehicle Glob
 
 This project aims to create a scalable & modular lithium-ion battery packs based on cylindrical cell format.
 
-For small production & prototyping, PCB cost 4.90$ for 10pcs when smaller than 100mm x 100mm. Until the design prove itself functionnal, it is cheaper to use small 100 x 100mm PCBs connected together than ordering one huge & expensive PCB. For this reason, the design is now based on a modular approach.
+For small production & prototyping, PCB cost 4.90$ for 10pcs when smaller than 100mm x 100mm. Until the design prove itself functionnal, it is cheaper to use small 100 x 100mm PCBs connected together instead of ordering one huge & expensive PCB. For this reason, the design is now based on a modular approach.
 
 ## Features:
 
