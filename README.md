@@ -30,8 +30,19 @@ For small production & prototyping, PCB cost 4.90$ for 10pcs when smaller than 1
 
 ## Concept images:
 
+The 100mm x 100mm (cell node) has 3 series x 10 parrallel (3S10P) 18650 cells. 
+
+The cells are spotwelded through the dedicated holes.
+The tubes act as pressfit contact between cells to the negative electrode (cell case) and is soldered on the PCB.
+
+## Cell node:
 ![alt text](PIC/Node.png)
 
-![alt text](PIC/No_PCB.png)
+The 100mm x 100mm boards can be stacked to obtain the desired series & parallel number of cells.
+The example below shows 3 series x 2 parrallel board which in total makes 9 series x 20 parallel(9S20P).
 
+## Stacking cell nodes (PCB removed to show concept)
 ![alt text](PIC/With_PCB.png)
+
+## Stacking cell nodes (With PCB)
+![alt text](PIC/No_PCB.png)
