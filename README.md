@@ -39,9 +39,9 @@ The small 3.6mm tubes act as pressfit contact between cells to the negative elec
 ## Cells board:
 ![alt text](PIC/Node.png)
 
-The 100mm x 100mm boards can be stacked to obtain the desired series & parallel number of cells.
+The 100mm x 100mm boards can be stacked to obtain the desired series & parallels number of cells.
 
-The example below shows 3 series x 2 parrallel board which in total makes 9 series x 20 parallel(9S20P).
+The example below shows 3 series x 2 parallel boards which in total makes 9 series x 20 parallels(9S20P).
 
 
 ## Stacking cells board (With PCB)
