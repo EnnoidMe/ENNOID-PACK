@@ -34,7 +34,7 @@ The 100mm x 100mm (cell node) has 3 series x 10 parrallel (3S10P) 18650 cells.
 
 The cells are spotwelded through the dedicated holes.
 
-The small 3.6mm tubes act as pressfit contact between cells to the negative electrode (cell case) and is soldered on the PCB. Liquid can flow through those tube to cool the cells.
+The small 3.6mm tubes act as pressfit contact between cells to the negative electrode (cell case) and is soldered on the PCB. Liquid can flow through those tubes to cool down the cells.
 
 ## Cell node:
 ![alt text](PIC/Node.png)
