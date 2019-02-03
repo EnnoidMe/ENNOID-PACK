@@ -45,7 +45,8 @@ The example below shows 3 series x 2 parrallel board which in total makes 9 seri
 
 
 ## Stacking cell nodes (With PCB)
-![alt text](PIC/No_PCB.png)
+![alt text](PIC/With_PCB.png)
 
 ## Stacking cell nodes (PCB removed to show concept)
-![alt text](PIC/With_PCB.png)
+
+![alt text](PIC/No_PCB.png)
