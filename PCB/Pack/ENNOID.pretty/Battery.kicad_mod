@@ -1,4 +1,4 @@
-(module Battery (layer F.Cu) (tedit 5C5707D8)
+(module Battery (layer F.Cu) (tedit 5C583339)
   (fp_text reference REF** (at 0.508 -13.9018) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -13,6 +13,7 @@
          (xy -2.5 -5) (xy 2.5 -5) (xy 2.5 0) (xy -2.5 0)) (width 0))
     ))
   (pad 2 thru_hole circle (at 0 10.456) (size 6 6) (drill 3.648) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 0 19.109) (size 6 6) (drill 3.648) (layers *.Cu *.Mask))
   (model ENNOID.pretty/3D/18650.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
@@ -20,6 +21,11 @@
   )
   (model ENNOID.pretty/3D/tube.stp
     (offset (xyz 0 -10.456 -1.6))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ENNOID.pretty/3D/tube.stp
+    (offset (xyz 0 -19.109 -1.6))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

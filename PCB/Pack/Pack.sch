@@ -1198,14 +1198,22 @@ $EndComp
 Wire Wire Line
 	1550 1600 1550 1300
 $Comp
-L Graphic:Logo_Open_Hardware_Small LOGO?
+L Graphic:Logo_Open_Hardware_Small LOGO1
 U 1 1 5C700030
 P 7500 6850
-F 0 "LOGO?" H 7500 7125 50  0001 C CNN
+F 0 "LOGO1" H 7500 7125 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 7500 6625 50  0001 C CNN
-F 2 "ENNOID:ENNOID-LOGO" H 7500 6850 50  0001 C CNN
+F 2 "" H 7500 6850 50  0001 C CNN
 F 3 "~" H 7500 6850 50  0001 C CNN
 	1    7500 6850
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	1900 850  1900 5750
+Wire Notes Line
+	1900 5750 1250 5750
+Wire Notes Line
+	1250 5750 1250 850 
+Wire Notes Line
+	1250 850  1900 850 
 $EndSCHEMATC
