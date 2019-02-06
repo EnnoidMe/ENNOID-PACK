@@ -23,9 +23,10 @@ For small production & prototyping, PCB cost 4.90$ for 10pcs when smaller than 1
 - Vertically PCB mounted cells
 - SMD fuse for each cell
 - Integrated temperature probes & cell monitoring connectors for BMS
-- Each cell is surrounded by three aluminium pins that act as pack structural reinforcement, negative electrode & heat dissipation.
+- Each cell is surrounded by five aluminium pins that act as pack structural reinforcement, negative electrode & heat dissipation.
 - Positive electrode can be spotwelded directly to the PCB
-- Can be both liquid cooled or air cooled
+- Cells voltage levels are separated by a hollow serpentine ribbon
+
  
 
 ## Concept images:
@@ -34,7 +35,7 @@ The 100mm x 100mm (cell node) has 3 series x 10 parrallel (3S10P) 18650 cells.
 
 The cells are spotwelded through the dedicated holes.
 
-The small 3.6mm tubes act as pressfit contact between cells to the negative electrode (cell case) and is soldered on the PCB. Liquid can flow through those tubes to cool down the cells.
+The small 3.6mm tubes act as pressfit contact between cells to the negative electrode (cell case) and is soldered on the PCB. 
 
 ## Cells board:
 ![alt text](PIC/Node.png)
