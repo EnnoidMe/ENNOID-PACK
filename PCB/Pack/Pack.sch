@@ -345,23 +345,15 @@ F 3 "~" V 8800 5010 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 3250 2300 3050
-Wire Wire Line
 	2300 2550 3000 2550
 Wire Wire Line
 	8800 2550 8800 2400
-Wire Wire Line
-	8800 3250 8800 3050
 Connection ~ 8800 2550
 Wire Wire Line
 	8100 2400 8100 2550
 Connection ~ 8100 2550
 Wire Wire Line
 	8100 2550 8800 2550
-Wire Wire Line
-	8100 2550 8100 2750
-Wire Wire Line
-	7400 3250 7400 3050
 Connection ~ 7400 2550
 Wire Wire Line
 	7400 2550 8100 2550
@@ -372,17 +364,11 @@ Wire Wire Line
 Connection ~ 6700 2550
 Wire Wire Line
 	6700 2550 7400 2550
-Wire Wire Line
-	6700 2550 6700 2750
-Wire Wire Line
-	6000 3250 6000 3050
 Connection ~ 6000 2550
 Wire Wire Line
 	6000 2550 6700 2550
 Wire Wire Line
 	6000 2550 6000 2400
-Wire Wire Line
-	5300 3250 5300 3050
 Connection ~ 5300 2550
 Wire Wire Line
 	5300 2550 6000 2550
@@ -393,10 +379,6 @@ Wire Wire Line
 Connection ~ 4550 2550
 Wire Wire Line
 	4550 2550 5300 2550
-Wire Wire Line
-	4550 2550 4550 2750
-Wire Wire Line
-	3750 3250 3750 3050
 Connection ~ 3750 2550
 Wire Wire Line
 	3750 2550 4550 2550
@@ -408,28 +390,8 @@ Connection ~ 3000 2550
 Wire Wire Line
 	3000 2550 3750 2550
 Wire Wire Line
-	3000 2550 3000 2750
-Wire Wire Line
 	2300 2550 2300 2400
 Connection ~ 2300 2550
-Wire Wire Line
-	2300 4800 2300 4600
-Wire Wire Line
-	3000 4800 3000 4600
-Wire Wire Line
-	3750 4800 3750 4600
-Wire Wire Line
-	4550 4750 4550 4650
-Wire Wire Line
-	5300 4750 5300 4650
-Wire Wire Line
-	6000 4750 6000 4650
-Wire Wire Line
-	6700 4750 6700 4650
-Wire Wire Line
-	7400 4750 7400 4650
-Wire Wire Line
-	8100 4750 8100 4650
 Wire Wire Line
 	2300 3850 3000 3850
 Connection ~ 2300 3850
@@ -479,31 +441,13 @@ Connection ~ 8800 3850
 Wire Wire Line
 	8800 3850 8800 3550
 Wire Wire Line
-	2300 2100 2300 1900
-Wire Wire Line
 	2300 1300 3000 1300
-Wire Wire Line
-	3000 2100 3000 1900
 Wire Wire Line
 	3000 1300 3750 1300
 Wire Wire Line
-	3750 2100 3750 1900
-Wire Wire Line
 	3750 1300 4550 1300
 Wire Wire Line
-	4550 2100 4550 1900
-Wire Wire Line
-	5300 2100 5300 1900
-Wire Wire Line
-	6700 1300 6700 1600
-Wire Wire Line
 	6000 1150 6000 1300
-Wire Wire Line
-	7400 1300 7400 1600
-Wire Wire Line
-	8100 1300 8100 1600
-Wire Wire Line
-	8800 1300 8800 1600
 Wire Wire Line
 	2300 5400 2300 5100
 Wire Wire Line
@@ -554,12 +498,8 @@ F 3 "~" V 1550 5060 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1550 2100 1550 1900
-Wire Wire Line
 	1550 1300 2300 1300
 Connection ~ 2300 1300
-Wire Wire Line
-	1550 3250 1550 3050
 Wire Wire Line
 	1550 2550 2300 2550
 Wire Wire Line
@@ -570,15 +510,11 @@ Wire Wire Line
 Wire Wire Line
 	1550 3850 2300 3850
 Connection ~ 1550 3850
-Wire Wire Line
-	1550 3850 1550 4300
 Connection ~ 3000 1300
 Connection ~ 3750 1300
 Connection ~ 5300 1300
 Connection ~ 4550 1300
 Connection ~ 6000 1300
-Wire Wire Line
-	6000 1300 6000 1600
 Connection ~ 6700 1300
 Connection ~ 7400 1300
 Wire Wire Line
@@ -766,437 +702,6 @@ Wire Wire Line
 	9600 3050 9600 2950
 Wire Wire Line
 	8800 5400 8800 5050
-Wire Wire Line
-	8800 4750 8800 4650
-$Comp
-L Device:Fuse F3
-U 1 1 5C61A00B
-P 1550 4450
-F 0 "F3" H 1610 4496 50  0000 L CNN
-F 1 "Fuse" H 1610 4405 50  0000 L CNN
-F 2 "" V 1480 4450 50  0001 C CNN
-F 3 "~" H 1550 4450 50  0001 C CNN
-	1    1550 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1550 4600 1550 4800
-$Comp
-L Device:Fuse F6
-U 1 1 5C61A6D6
-P 2300 4450
-F 0 "F6" H 2360 4496 50  0000 L CNN
-F 1 "Fuse" H 2360 4405 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 2230 4450 50  0001 C CNN
-F 3 "~" H 2300 4450 50  0001 C CNN
-	1    2300 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 4300 2300 3850
-$Comp
-L Device:Fuse F9
-U 1 1 5C61AA04
-P 3000 4450
-F 0 "F9" H 3060 4496 50  0000 L CNN
-F 1 "Fuse" H 3060 4405 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 2930 4450 50  0001 C CNN
-F 3 "~" H 3000 4450 50  0001 C CNN
-	1    3000 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3000 4300 3000 3850
-$Comp
-L Device:Fuse F12
-U 1 1 5C61AC54
-P 3750 4450
-F 0 "F12" H 3810 4496 50  0000 L CNN
-F 1 "Fuse" H 3810 4405 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 3680 4450 50  0001 C CNN
-F 3 "~" H 3750 4450 50  0001 C CNN
-	1    3750 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3750 4300 3750 3850
-$Comp
-L Device:Fuse F15
-U 1 1 5C61AF59
-P 4550 4500
-F 0 "F15" H 4610 4546 50  0000 L CNN
-F 1 "Fuse" H 4610 4455 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 4480 4500 50  0001 C CNN
-F 3 "~" H 4550 4500 50  0001 C CNN
-	1    4550 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4550 4350 4550 3850
-$Comp
-L Device:Fuse F18
-U 1 1 5C61B200
-P 5300 4500
-F 0 "F18" H 5360 4546 50  0000 L CNN
-F 1 "Fuse" H 5360 4455 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 5230 4500 50  0001 C CNN
-F 3 "~" H 5300 4500 50  0001 C CNN
-	1    5300 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5300 4350 5300 3850
-$Comp
-L Device:Fuse F21
-U 1 1 5C61B5D6
-P 6000 4500
-F 0 "F21" H 6060 4546 50  0000 L CNN
-F 1 "Fuse" H 6060 4455 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 5930 4500 50  0001 C CNN
-F 3 "~" H 6000 4500 50  0001 C CNN
-	1    6000 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6000 4350 6000 3850
-$Comp
-L Device:Fuse F24
-U 1 1 5C61B819
-P 6700 4500
-F 0 "F24" H 6760 4546 50  0000 L CNN
-F 1 "Fuse" H 6760 4455 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 6630 4500 50  0001 C CNN
-F 3 "~" H 6700 4500 50  0001 C CNN
-	1    6700 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6700 4350 6700 3850
-$Comp
-L Device:Fuse F27
-U 1 1 5C61BB1E
-P 7400 4500
-F 0 "F27" H 7460 4546 50  0000 L CNN
-F 1 "Fuse" H 7460 4455 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 7330 4500 50  0001 C CNN
-F 3 "~" H 7400 4500 50  0001 C CNN
-	1    7400 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7400 4350 7400 3850
-$Comp
-L Device:Fuse F30
-U 1 1 5C61BE3D
-P 8100 4500
-F 0 "F30" H 8160 4546 50  0000 L CNN
-F 1 "Fuse" H 8160 4455 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 8030 4500 50  0001 C CNN
-F 3 "~" H 8100 4500 50  0001 C CNN
-	1    8100 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8100 4350 8100 3850
-$Comp
-L Device:Fuse F33
-U 1 1 5C621184
-P 8800 4500
-F 0 "F33" H 8860 4546 50  0000 L CNN
-F 1 "Fuse" H 8860 4455 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 8730 4500 50  0001 C CNN
-F 3 "~" H 8800 4500 50  0001 C CNN
-	1    8800 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8800 4350 8800 3850
-$Comp
-L Device:Fuse F2
-U 1 1 5C6970F0
-P 1550 2900
-F 0 "F2" H 1610 2946 50  0000 L CNN
-F 1 "Fuse" H 1610 2855 50  0000 L CNN
-F 2 "" V 1480 2900 50  0001 C CNN
-F 3 "~" H 1550 2900 50  0001 C CNN
-	1    1550 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1550 2750 1550 2550
-$Comp
-L Device:Fuse F5
-U 1 1 5C6976E8
-P 2300 2900
-F 0 "F5" H 2360 2946 50  0000 L CNN
-F 1 "Fuse" H 2360 2855 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 2230 2900 50  0001 C CNN
-F 3 "~" H 2300 2900 50  0001 C CNN
-	1    2300 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 2750 2300 2550
-$Comp
-L Device:Fuse F8
-U 1 1 5C6979DA
-P 3000 2900
-F 0 "F8" H 3060 2946 50  0000 L CNN
-F 1 "Fuse" H 3060 2855 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 2930 2900 50  0001 C CNN
-F 3 "~" H 3000 2900 50  0001 C CNN
-	1    3000 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3000 3050 3000 3250
-$Comp
-L Device:Fuse F11
-U 1 1 5C697DC4
-P 3750 2900
-F 0 "F11" H 3810 2946 50  0000 L CNN
-F 1 "Fuse" H 3810 2855 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 3680 2900 50  0001 C CNN
-F 3 "~" H 3750 2900 50  0001 C CNN
-	1    3750 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3750 2750 3750 2550
-$Comp
-L Device:Fuse F14
-U 1 1 5C69824E
-P 4550 2900
-F 0 "F14" H 4610 2946 50  0000 L CNN
-F 1 "Fuse" H 4610 2855 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 4480 2900 50  0001 C CNN
-F 3 "~" H 4550 2900 50  0001 C CNN
-	1    4550 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4550 3050 4550 3250
-$Comp
-L Device:Fuse F17
-U 1 1 5C6986E6
-P 5300 2900
-F 0 "F17" H 5360 2946 50  0000 L CNN
-F 1 "Fuse" H 5360 2855 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 5230 2900 50  0001 C CNN
-F 3 "~" H 5300 2900 50  0001 C CNN
-	1    5300 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5300 2750 5300 2550
-$Comp
-L Device:Fuse F20
-U 1 1 5C698B50
-P 6000 2900
-F 0 "F20" H 6060 2946 50  0000 L CNN
-F 1 "Fuse" H 6060 2855 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 5930 2900 50  0001 C CNN
-F 3 "~" H 6000 2900 50  0001 C CNN
-	1    6000 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6000 2750 6000 2550
-$Comp
-L Device:Fuse F23
-U 1 1 5C698F5C
-P 6700 2900
-F 0 "F23" H 6760 2946 50  0000 L CNN
-F 1 "Fuse" H 6760 2855 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 6630 2900 50  0001 C CNN
-F 3 "~" H 6700 2900 50  0001 C CNN
-	1    6700 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6700 3050 6700 3250
-$Comp
-L Device:Fuse F26
-U 1 1 5C69925F
-P 7400 2900
-F 0 "F26" H 7460 2946 50  0000 L CNN
-F 1 "Fuse" H 7460 2855 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 7330 2900 50  0001 C CNN
-F 3 "~" H 7400 2900 50  0001 C CNN
-	1    7400 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7400 2750 7400 2550
-$Comp
-L Device:Fuse F29
-U 1 1 5C6996D1
-P 8100 2900
-F 0 "F29" H 8160 2946 50  0000 L CNN
-F 1 "Fuse" H 8160 2855 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 8030 2900 50  0001 C CNN
-F 3 "~" H 8100 2900 50  0001 C CNN
-	1    8100 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8100 3050 8100 3250
-$Comp
-L Device:Fuse F32
-U 1 1 5C699A04
-P 8800 2900
-F 0 "F32" H 8860 2946 50  0000 L CNN
-F 1 "Fuse" H 8860 2855 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 8730 2900 50  0001 C CNN
-F 3 "~" H 8800 2900 50  0001 C CNN
-	1    8800 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8800 2750 8800 2550
-$Comp
-L Device:Fuse F31
-U 1 1 5C699D4D
-P 8800 1750
-F 0 "F31" H 8860 1796 50  0000 L CNN
-F 1 "Fuse" H 8860 1705 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 8730 1750 50  0001 C CNN
-F 3 "~" H 8800 1750 50  0001 C CNN
-	1    8800 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8800 1900 8800 2100
-$Comp
-L Device:Fuse F28
-U 1 1 5C69A1DE
-P 8100 1750
-F 0 "F28" H 8160 1796 50  0000 L CNN
-F 1 "Fuse" H 8160 1705 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 8030 1750 50  0001 C CNN
-F 3 "~" H 8100 1750 50  0001 C CNN
-	1    8100 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8100 1900 8100 2100
-$Comp
-L Device:Fuse F25
-U 1 1 5C69A64A
-P 7400 1750
-F 0 "F25" H 7460 1796 50  0000 L CNN
-F 1 "Fuse" H 7460 1705 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 7330 1750 50  0001 C CNN
-F 3 "~" H 7400 1750 50  0001 C CNN
-	1    7400 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7400 1900 7400 2100
-$Comp
-L Device:Fuse F22
-U 1 1 5C69A9C1
-P 6700 1750
-F 0 "F22" H 6760 1796 50  0000 L CNN
-F 1 "Fuse" H 6760 1705 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 6630 1750 50  0001 C CNN
-F 3 "~" H 6700 1750 50  0001 C CNN
-	1    6700 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6700 1900 6700 2100
-$Comp
-L Device:Fuse F19
-U 1 1 5C69AE61
-P 6000 1750
-F 0 "F19" H 6060 1796 50  0000 L CNN
-F 1 "Fuse" H 6060 1705 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 5930 1750 50  0001 C CNN
-F 3 "~" H 6000 1750 50  0001 C CNN
-	1    6000 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6000 1900 6000 2100
-$Comp
-L Device:Fuse F16
-U 1 1 5C69B292
-P 5300 1750
-F 0 "F16" H 5360 1796 50  0000 L CNN
-F 1 "Fuse" H 5360 1705 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 5230 1750 50  0001 C CNN
-F 3 "~" H 5300 1750 50  0001 C CNN
-	1    5300 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5300 1600 5300 1300
-$Comp
-L Device:Fuse F13
-U 1 1 5C69B5CA
-P 4550 1750
-F 0 "F13" H 4610 1796 50  0000 L CNN
-F 1 "Fuse" H 4610 1705 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 4480 1750 50  0001 C CNN
-F 3 "~" H 4550 1750 50  0001 C CNN
-	1    4550 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4550 1600 4550 1300
-$Comp
-L Device:Fuse F10
-U 1 1 5C69B9F5
-P 3750 1750
-F 0 "F10" H 3810 1796 50  0000 L CNN
-F 1 "Fuse" H 3810 1705 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 3680 1750 50  0001 C CNN
-F 3 "~" H 3750 1750 50  0001 C CNN
-	1    3750 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3750 1600 3750 1300
-$Comp
-L Device:Fuse F7
-U 1 1 5C69BCE5
-P 3000 1750
-F 0 "F7" H 3060 1796 50  0000 L CNN
-F 1 "Fuse" H 3060 1705 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 2930 1750 50  0001 C CNN
-F 3 "~" H 3000 1750 50  0001 C CNN
-	1    3000 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3000 1600 3000 1300
-$Comp
-L Device:Fuse F4
-U 1 1 5C69C523
-P 2300 1750
-F 0 "F4" H 2360 1796 50  0000 L CNN
-F 1 "Fuse" H 2360 1705 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" V 2230 1750 50  0001 C CNN
-F 3 "~" H 2300 1750 50  0001 C CNN
-	1    2300 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 1600 2300 1300
-$Comp
-L Device:Fuse F1
-U 1 1 5C69C7FE
-P 1550 1750
-F 0 "F1" H 1610 1796 50  0000 L CNN
-F 1 "Fuse" H 1610 1705 50  0000 L CNN
-F 2 "" V 1480 1750 50  0001 C CNN
-F 3 "~" H 1550 1750 50  0001 C CNN
-	1    1550 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1550 1600 1550 1300
 $Comp
 L Graphic:Logo_Open_Hardware_Small LOGO1
 U 1 1 5C700030
@@ -1209,11 +714,77 @@ F 3 "~" H 7500 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	1900 850  1900 5750
-Wire Notes Line
 	1900 5750 1250 5750
 Wire Notes Line
 	1250 5750 1250 850 
 Wire Notes Line
 	1250 850  1900 850 
+Wire Wire Line
+	2300 1300 2300 2100
+Wire Wire Line
+	3000 1300 3000 2100
+Wire Wire Line
+	3750 1300 3750 2100
+Wire Wire Line
+	4550 1300 4550 2100
+Wire Wire Line
+	5300 1300 5300 2100
+Wire Wire Line
+	6000 1300 6000 2100
+Wire Wire Line
+	7400 1300 7400 2100
+Wire Wire Line
+	6700 1300 6700 2100
+Wire Wire Line
+	8100 1300 8100 2100
+Wire Wire Line
+	8800 1300 8800 2100
+Wire Wire Line
+	1550 1300 1550 2100
+Wire Wire Line
+	1550 2550 1550 3250
+Wire Wire Line
+	2300 2550 2300 3250
+Wire Wire Line
+	3000 2550 3000 3250
+Wire Wire Line
+	3750 2550 3750 3250
+Wire Wire Line
+	4550 2550 4550 3250
+Wire Wire Line
+	5300 2550 5300 3250
+Wire Wire Line
+	6000 2550 6000 3250
+Wire Wire Line
+	6700 2550 6700 3250
+Wire Wire Line
+	7400 2550 7400 3250
+Wire Wire Line
+	8100 2550 8100 3250
+Wire Wire Line
+	8800 2550 8800 3250
+Wire Notes Line
+	1900 850  1900 5750
+Wire Wire Line
+	2300 3850 2300 4800
+Wire Wire Line
+	3000 3850 3000 4800
+Wire Wire Line
+	3750 3850 3750 4800
+Wire Wire Line
+	4550 3850 4550 4750
+Wire Wire Line
+	5300 3850 5300 4750
+Wire Wire Line
+	6000 3850 6000 4750
+Wire Wire Line
+	6700 3850 6700 4750
+Wire Wire Line
+	7400 3850 7400 4750
+Wire Wire Line
+	8100 3850 8100 4750
+Wire Wire Line
+	8800 3850 8800 4750
+Wire Wire Line
+	1550 3850 1550 4800
 $EndSCHEMATC
