@@ -20,11 +20,12 @@ For small production & prototyping, PCB cost 4.90$ for 10pcs when smaller than 1
 ## Features:
 
 **18650 cells board**
-- Vertically mounted cells
+- Vertically mounted cells, 10P3S modular block 
 - All battery connection/fuses are done from the top side
-- Integrated temperature probes & cell monitoring connectors for BMS
-- Electrodes can be spotwelded directly onto the PCB
-- Cells voltage levels are separated by a hollow serpentine ribbon
+- Integrated thermistor, cell voltages & temperature monitoring connectors for BMS are soldered onto the PCB
+- Cells electrodes are spotwelded directly onto the PCB
+- Cells voltage levels are separated by a serpentine ribbon
+- Plastic case stackable & modular for high voltage packs
 
  
 
