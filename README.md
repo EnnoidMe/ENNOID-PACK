@@ -1,15 +1,9 @@
-This repository is part of the open-source project: EVGE - Electric Vehicle Global Equipment:
-
-- EVCE - Electric Vehicle Charge Equipment
-  - Onboard Battery Charger (https://github.com/EnnoidMe/ENNOID-Charger)
-  - Charging station
-- EVBE - Electric Vehicle Battery Equipment 
-  - BMS (https://github.com/EnnoidMe/ENNOID-BMS)
-  - **Scalable Battery Pack (This repository)**
-- EVPE - Electric Vehicle Powertrain Equipment
-  - Motor Driver (https://github.com/EnnoidMe/VESC-controller)
-  - Gate driver (https://github.com/EnnoidMe/ENNOID-Dual-Gate-Driver)
-  - Scalable Three-Phase Electric Motor
+Related ENNOID projects:
+  - [Onboard Battery Charger](https://github.com/EnnoidMe/ENNOID-Charger)
+  - [BMS](https://github.com/EnnoidMe/ENNOID-BMS)
+  - [Scalable Battery Pack](https://github.com/EnnoidMe/ENNOID-PACK)
+  - [Motor Drive](https://github.com/EnnoidMe/VESC-controller)
+  - [Dual Isolated Gate driver](https://github.com/EnnoidMe/ENNOID-Dual-Gate-Driver)
 
 # ENNOID-PACK
 
@@ -43,10 +37,3 @@ The 100mm x 100mm boards can be stacked to obtain the desired series & parallels
 
 The example below shows 3 series x 2 parallel boards which in total makes 9 series x 20 parallels(9S20P).
 
-
-## Stacking cells board (With PCB)
-![alt text](PIC/With_PCB.png)
-
-## Stacking cell boards (PCB removed to show concept)
-
-![alt text](PIC/No_PCB.png)
