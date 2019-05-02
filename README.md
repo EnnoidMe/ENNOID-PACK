@@ -20,7 +20,10 @@ This project aims to create a scalable & modular lithium-ion battery packs based
 - Sealed, isolated & robust casing
 - Integrated with ENNOID-BMS for voltages & temperatures monitoring
 
+Each module has a slave board mounted on top for balancing. External master board is required for complete system.
+
 Available for order:
+
 https://www.ennoid.me/battery/battery-pack
 
 12S10P modules rated at 1.5kWh, 100A continuous, 44.4V nomival:
