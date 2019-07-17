@@ -1,5 +1,3 @@
-View this project on [CADLAB.io](https://cadlab.io/project/1988). 
-
 Related ENNOID projects:
   - [Onboard Battery Charger](https://github.com/EnnoidMe/ENNOID-Charger)
   - [BMS](https://github.com/EnnoidMe/ENNOID-BMS)
@@ -36,3 +34,5 @@ https://www.ennoid.me/battery/battery-pack
 ![alt text](PIC/12S10P-disassembled.jpg)
 
 ![alt text](PIC/dimensions.png)
+
+View this project on [CADLAB.io](https://cadlab.io/project/1988). 
