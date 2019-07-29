@@ -21,18 +21,22 @@ This project aims to create a scalable & modular lithium-ion battery packs based
 
 Each module has an ENNOID-BMS slave board mounted below the handle for balancing. 
 
-External master board with 12V power supply, contactors, current sensor & charger are required for a complete system.
+For a complete battery pack system, master board with 12V power supply, contactors & current sensor are integrated in the separate "Penthouse box" 
 
 Available for order:
 
-https://www.ennoid.me/battery/battery-pack
+https://www.ennoid.me/battery
 
-12S10P modules rated at max. 1.5kWh, 100A continuous, 44.4V nomival:
+12S10P modules up to 1.5kWh, 160A continuous, 44.4V nomival:
 
 ![alt text](PIC/12S10P.jpg)
 
 ![alt text](PIC/12S10P-disassembled.jpg)
 
 ![alt text](PIC/dimensions.png)
+
+![alt text](PIC/Penthouse.jpg)
+
+![alt text](PIC/Penthouse-dimensions.png)
 
 View this project on [CADLAB.io](https://cadlab.io/project/1988). 
