@@ -5,9 +5,34 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
+*~
+_autosave-*
+*.tmp
+
 
 # Netlist files (exported from Eeschema)
 *.net
 
 # Autorouter files (exported from Pcbnew)
 .dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+# PCB files
+*.kicad_pcb
+*.gbr
+*.drl
+*.zip
+
+# CAD files
+*.CATPart
+*.CATDrawing
+*.CATProduct
+*.CATProcess
+*.step
+*.stp
+
+
