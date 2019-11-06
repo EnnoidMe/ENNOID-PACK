@@ -1,9 +1,5 @@
 Related ENNOID projects:
-  - [Onboard Battery Charger](https://github.com/EnnoidMe/ENNOID-Charger)
   - [BMS](https://github.com/EnnoidMe/ENNOID-BMS)
-  - [Scalable Battery Pack](https://github.com/EnnoidMe/ENNOID-PACK)
-  - [Motor Drive](https://github.com/EnnoidMe/VESC-controller)
-  - [Dual Isolated Gate driver](https://github.com/EnnoidMe/ENNOID-Dual-Gate-Driver)
 
 # ENNOID-PACK
 
